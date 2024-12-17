@@ -1,0 +1,64 @@
+.cell{
+    width: 110px;
+    height: 110px;
+    border: 3px solid;
+    box-shadow: 0 0 0 3px;
+    line-height: 110px;
+    font-size: 80px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: middle;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 330px;
+    margin: auto;
+}
+body {
+    background-color: aquamarine;
+}
+#restartBtn {
+    text-align: center;
+    background-color: chocolate;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 30px;
+    border-radius: 5px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: large;
+}
+#xWinsText {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+#yWinsText {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+#picX {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    size: 30px;
+    width: 300px;
+    height: auto;
+}
+#picO {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    width: 300px;
+    height: auto;
+}
